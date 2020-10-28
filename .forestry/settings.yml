@@ -3,7 +3,14 @@ new_page_extension: html
 auto_deploy: false
 admin_path: ''
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: ''
+  label: side1
+  create: all
+  match: "**/*"
+  templates:
+  - test2
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
