@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: text2
+pages:
+- mainPage.html
